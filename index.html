@@ -22,13 +22,23 @@
       <a href="#sobre" class="btn">Conheça mais</a>
     </div>
     <div class="hero__flag" aria-hidden="true">
-      <div class="flag__outer">
-        <div class="flag__diamond">
-          <div class="flag__circle">
-            <div class="flag__band"></div>
-          </div>
-        </div>
-      </div>
+      <svg class="flag-svg" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg">
+        <!-- Fundo verde -->
+        <rect width="360" height="240" fill="#009C3B" rx="6"/>
+        <!-- Losango amarelo -->
+        <polygon points="180,20 340,120 180,220 20,120" fill="#FFDF00"/>
+        <!-- Círculo azul -->
+        <circle cx="180" cy="120" r="66" fill="#002776"/>
+        <!-- Faixa branca -->
+        <path d="M114,138 Q180,108 246,138" stroke="white" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.18"/>
+        <!-- Estrelas decorativas -->
+        <circle cx="155" cy="105" r="4" fill="white" opacity="0.9"/>
+        <circle cx="180" cy="98" r="3" fill="white" opacity="0.9"/>
+        <circle cx="205" cy="108" r="4" fill="white" opacity="0.9"/>
+        <circle cx="168" cy="125" r="3" fill="white" opacity="0.9"/>
+        <circle cx="195" cy="130" r="3.5" fill="white" opacity="0.9"/>
+        <circle cx="178" cy="140" r="2.5" fill="white" opacity="0.9"/>
+      </svg>
     </div>
   </header>
 
